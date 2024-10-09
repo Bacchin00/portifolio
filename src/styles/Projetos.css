@@ -1,0 +1,88 @@
+.cardTitulo{
+    font-family: Noto Serif Oriya;
+    font-size: 20px;
+    background: linear-gradient(to right, #314755, #26a0da); /* Gradiente de laranja a rosa */
+    -webkit-background-clip: text; /* Suporte para navegadores baseados em Webkit */
+    background-clip: text; /* Standard property for compatibility */
+    -webkit-text-fill-color: transparent; /* Faz o gradiente preencher o texto */ 
+}
+
+.cardTexto{
+    font-family: IBM Plex Sans;
+}
+
+.textoBotao{
+    text-decoration: none;
+}
+
+.btnProjetos {
+    position: relative;
+    outline: none;
+    text-decoration: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 45px;
+    width: 120px;
+    opacity: 1;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+  }
+  
+  .btnProjetos .btnProjetosSpan {
+    font-family: Noto Serif Oriya;
+    color: #000000;
+    height: 13px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+    text-decoration: none; /* Adicionado para remover sublinhado */
+  }
+  
+  .btnProjetos:hover {
+    animation: bn54rotate 0.7s ease-in-out both;
+  }
+  
+  .btnProjetos:hover .btnProjetosSpan {
+    animation: bn54storm 0.7s ease-in-out both;
+    animation-delay: 0.06s;
+  }
+  
+  @keyframes btnProjetosrotate {
+    0% {
+      transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+    25% {
+      transform: rotate(3deg) translate3d(0, 0, 0);
+    }
+    50% {
+      transform: rotate(-3deg) translate3d(0, 0, 0);
+    }
+    75% {
+      transform: rotate(1deg) translate3d(0, 0, 0);
+    }
+    100% {
+      transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes btnProjetosstorm {
+    0% {
+      transform: translate3d(0, 0, 0) translateZ(0);
+    }
+    25% {
+      transform: translate3d(4px, 0, 0) translateZ(0);
+    }
+    50% {
+      transform: translate3d(-3px, 0, 0) translateZ(0);
+    }
+    75% {
+      transform: translate3d(2px, 0, 0) translateZ(0);
+    }
+    100% {
+      transform: translate3d(0, 0, 0) translateZ(0);
+    }
+  }

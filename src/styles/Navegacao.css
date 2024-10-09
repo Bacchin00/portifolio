@@ -1,0 +1,18 @@
+.navCor{
+    background-color: #ebf6ff;
+}
+
+.hide {
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+.show {
+    transform: translateY(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.is-active {
+    background-color: #ebf6ff;
+    color: #000000;
+}
