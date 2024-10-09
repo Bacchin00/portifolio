@@ -12,7 +12,7 @@ function Head() {
           <p className='d-flex justify-content-start m-5 fontTitulo'>Olá, sou o <br/> Victor Fonseca Bacchin </p>
           <p className='d-flex justify-content-start m-5 fontDescricao'>Aspirante a Software Engineer | Cursando Ánalise de Desenvolvimento de Sistemas (modalidade A.M.S)</p>
           <div className="d-flex justify-content-center mb-5">
-          <a className='textoBotao' href="#contatos">
+          <a className='textoBotao' href="#contato">
             <button class="bn54">
             <span class="bn54span">Contate-me</span>
             </button>
