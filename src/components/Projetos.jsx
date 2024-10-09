@@ -132,7 +132,7 @@ function Projetos(){
                 layout moderno, com todas as informações necessárias para meu portifólio. 
                 </Card.Text>
                 <div className="d-flex justify-content-between">
-                  <a className='textoBotao' href="/" target="_blank" rel="noopener noreferrer">
+                  <a className='textoBotao' href="https://github.com/Bacchin00/portifolio" target="_blank" rel="noopener noreferrer">
                     <button className="btnProjetos">
                       <span className="btnProjetosSpan">Repositório</span>
                     </button>
