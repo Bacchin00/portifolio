@@ -90,7 +90,8 @@ function Projetos(){
                 <Card.Text className='cardTexto'>
                 Sistema de Cadastro de Pessoas desenvolvido em PHP e PostgreSql. Este projeto possui um sistema
                 de login e senha com total conexão com o banco de dados fazendo validação(para entrar no sistema), 
-                cadastro, alteração e exclusão de pessoas. Além disso o sitema internacionalização para outras línguas.
+                cadastro, alteração e exclusão de pessoas. Além disso o sitema possuí uma API de verificação de CEP e 
+                internacionalização para outras línguas. 
                 </Card.Text>
                 <div className="d-flex justify-content-between">
                   <a className='textoBotao' href="https://github.com/Bacchin00/SistemaERP" target="_blank" rel="noopener noreferrer">
